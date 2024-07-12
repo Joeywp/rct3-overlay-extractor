@@ -1,0 +1,79 @@
+
+Overlay dump of H:\SteamLibrary\steamapps\common\Rollercoaster Tycoon 3 Gold\Characters\Entertainers\Shark\Sharky_All.unique.ovl
+======================================================
+Chunk 3/9 part 1/4: $5A(90)-$6A(106)
+Chunk 3/9 part 2/4: $6A(106)-$7E(126)
+Chunk 3/9 part 3/4: $7E(126)-$8E(142)
+Chunk 3/9 part 4/4: $8E(142)-$D6(214)
+
+======================================================
+Chunk 3/9 part 1/4
+======================================================
+//Internal offset: $5A(90) - $6A(106)
+//Part position: $C2(0) - $C2(0)
+//Block length: $10(16)
+SYMBOL REFERENCES
+~~~~~~~~~~~
+000C2  0005A  long                              Stringpointer  -> 0(=$0) (*P string Sharky_All:tex)
+000C6  0005E  long                                Datapointer  -> 142(=$8E) (*P datablock of Sharky_All:tex)
+000CA  00062  short                              Pointer flag  1(=$1) (If not a pointer, string is a variable)
+000CC  00064  short                            Loader pointer  0(=$0) 
+000CE  00066  long                                String hash  1921461338(=$72872C5A) 
+
+======================================================
+Chunk 3/9 part 2/4
+======================================================
+//Internal offset: $6A(106) - $7E(126)
+//Part position: $D2(0) - $D2(0)
+//Block length: $14(20)
+LOADER REFERENCES
+~~~~~~~~~~~
+000D2  0006A  long                              Loader number  2(=$2) (loader Texture)
+000D6  0006E  long                               Data pointer  -> 142(=$8E) (*P datablock of Sharky_All:tex)
+000DA  00072  long                            Extra data flag  0(=$0) 
+000DE  00076  long                      Symbol struct pointer  -> 90(=$5A) (*P symbolstruct with string Sharky_All:tex)
+000E2  0007A  long                  Number of symbol resolves  1(=$1) 
+
+======================================================
+Chunk 3/9 part 3/4
+======================================================
+//Internal offset: $7E(126) - $8E(142)
+//Part position: $E6(0) - $E6(0)
+//Block length: $10(16)
+SYMBOL RESOLVES
+~~~~~~~~~~~
+000E6  0007E  long                               Data pointer  -> 186(=$BA) (*P symbol resolve data People:txs)
+000EA  00082  long                             String pointer  -> 15(=$F) (*P string People:txs)
+000EE  00086  long                               Load pointer  -> 106(=$6A) (*P loaderrefence Texture)
+000F2  0008A  long                                String hash  278818627(=$109E6F43) 
+
+======================================================
+Chunk 3/9 part 4/4
+======================================================
+//Internal offset: $8E(142) - $D6(214)
+//Part position: $F6(0) - $F6(0)
+//Block length: $48(72)
+~~~~~~~~~~~
+-==  INCOMING RELOCATION TO OFFSET $8e(142)  ==-
+DATA OF Sharky_All:tex (type:Texture)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+000F6  0008E  long                               Unknown data  ($70007 ($7 $0 $7 $0) == 458759) 
+000FA  00092  long                               Unknown data  ($70007 ($7 $0 $7 $0) == 458759) 
+000FE  00096  long                               Unknown data  ($70007 ($7 $0 $7 $0) == 458759) 
+00102  0009A  long                               Unknown data  ($70007 ($7 $0 $7 $0) == 458759) 
+00106  0009E  long                               Unknown data  ($70007 ($7 $0 $7 $0) == 458759) 
+0010A  000A2  long                               Unknown data  ($70007 ($7 $0 $7 $0) == 458759) 
+0010E  000A6  long                               Unknown data  ($70007 ($7 $0 $7 $0) == 458759) 
+00112  000AA  long                               Unknown data  ($70007 ($7 $0 $7 $0) == 458759) 
+00116  000AE  long                               Unknown data  ($1 ($1 $0 $0 $0) == 1) 
+0011A  000B2  long                               Unknown data  ($8 ($8 $0 $0 $0) == 8) 
+0011E  000B6  long                               Unknown data  ($10 ($10 $0 $0 $0) == 16) 
+-==  INCOMING RELOCATION TO OFFSET $ba(186)  ==-
+00122  000BA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) <P-IN@BA: People:txs>
+00126  000BE  long                               Unknown data  ($10001 ($1 $0 $1 $0) == 65537) 
+0012A  000C2  long                               Unknown data  -> ($4A ($4A $0 $0 $0) == 74) (*P unknown)
+0012E  000C6  long                               Unknown data  -> ($CE ($CE $0 $0 $0) == 206) (*P unknown)
+00132  000CA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+-==  INCOMING RELOCATION TO OFFSET $ce(206)  ==-
+00136  000CE  long                               Unknown data  -> ($8E ($8E $0 $0 $0) == 142) (*P datablock of Sharky_All:tex)
+0013A  000D2  long                               Unknown data  -> ($4E ($4E $0 $0 $0) == 78) (*P datablock of stringless loaderrefence from loader Flic)

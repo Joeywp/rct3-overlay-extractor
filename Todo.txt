@@ -1,0 +1,2 @@
+Stringtable bekijken
+Block info vooraan de dump (zoals struktur analyse)

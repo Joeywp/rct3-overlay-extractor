@@ -1,0 +1,654 @@
+
+Overlay dump of C:\Program Files (x86)\Atari\Vanilla\Characters\VM\VF01_Legs_Main.common.ovl
+======================================================
+Chunk 1/9 part 1/1: $0(0)-$9E(158)
+Chunk 3/9 part 1/2: $9E(158)-$C2(194)
+Chunk 3/9 part 2/2: $C2(194)-$FE(254)
+Chunk 4/9 part 1/3: $FE(254)-$5E2(1506)
+Chunk 4/9 part 2/3: $5E2(1506)-$6DE(1758)
+Chunk 4/9 part 3/3: $6DE(1758)-$7DA(2010)
+
+======================================================
+Chunk 1/9 part 1/1
+======================================================
+//Internal offset: $0(0) - $9E(158)
+//Part position: $75(0) - $75(0)
+//Block length: $9E(158)
+STRINGTABLE
+~~~~~~~~~~~
+00075  00000  text                                     String  Serve 
+0007B  00006  text                                     String  IdleStackShelfs 
+0008B  00016  text                                     String  IdleBored 
+00095  00020  text                                     String  TakeMoney 
+0009F  0002A  text                                     String  Legs_VF01_L1:mms 
+000B0  0003B  text                                     String  Legs_VF01_L1:prt 
+000C1  0004C  text                                     String  Legs_VF01_L2:mms 
+000D2  0005D  text                                     String  Legs_VF01_L2:prt 
+000E3  0006E  text                                     String  Legs_VF01_L3:mms 
+000F4  0007F  text                                     String  Legs_VF01_L3:prt 
+00105  00090  text                                     String  VM01_Legs:tex 
+
+======================================================
+Chunk 3/9 part 1/2
+======================================================
+//Internal offset: $9E(158) - $C2(194)
+//Part position: $117(0) - $117(0)
+//Block length: $24(36)
+SYMBOL REFERENCES
+~~~~~~~~~~~
+00117  0009E  long                              Stringpointer  -> 42(=$2A) (*P string Legs_VF01_L1:mms)
+0011B  000A2  long                                Datapointer  -> 254(=$FE) (*P datablock of Legs_VF01_L1:mms)
+0011F  000A6  long                               Pointer flag  1(=$1) (If not a pointer, string is a variable)
+00123  000AA  long                              Stringpointer  -> 76(=$4C) (*P string Legs_VF01_L2:mms)
+00127  000AE  long                                Datapointer  -> 1506(=$5E2) (*P datablock of Legs_VF01_L2:mms)
+0012B  000B2  long                               Pointer flag  1(=$1) (If not a pointer, string is a variable)
+0012F  000B6  long                              Stringpointer  -> 110(=$6E) (*P string Legs_VF01_L3:mms)
+00133  000BA  long                                Datapointer  -> 1758(=$6DE) (*P datablock of Legs_VF01_L3:mms)
+00137  000BE  long                               Pointer flag  1(=$1) (If not a pointer, string is a variable)
+
+======================================================
+Chunk 3/9 part 2/2
+======================================================
+//Internal offset: $C2(194) - $FE(254)
+//Part position: $13F(0) - $13F(0)
+//Block length: $3C(60)
+LOADER REFERENCES
+~~~~~~~~~~~
+0013F  000C2  long                              Loader number  0(=$0) (loader MorphMesh)
+00143  000C6  long                               Data pointer  -> 254(=$FE) (*P datablock of Legs_VF01_L1:mms)
+00147  000CA  long                            Extra data flag  0(=$0) 
+0014B  000CE  long                      Symbol struct pointer  -> 158(=$9E) (*P symbolstruct with string Legs_VF01_L1:mms)
+0014F  000D2  long                  Number of symbol resolves  0(=$0) 
+00153  000D6  long                              Loader number  0(=$0) (loader MorphMesh)
+00157  000DA  long                               Data pointer  -> 1506(=$5E2) (*P datablock of Legs_VF01_L2:mms)
+0015B  000DE  long                            Extra data flag  0(=$0) 
+0015F  000E2  long                      Symbol struct pointer  -> 170(=$AA) (*P symbolstruct with string Legs_VF01_L2:mms)
+00163  000E6  long                  Number of symbol resolves  0(=$0) 
+00167  000EA  long                              Loader number  0(=$0) (loader MorphMesh)
+0016B  000EE  long                               Data pointer  -> 1758(=$6DE) (*P datablock of Legs_VF01_L3:mms)
+0016F  000F2  long                            Extra data flag  0(=$0) 
+00173  000F6  long                      Symbol struct pointer  -> 182(=$B6) (*P symbolstruct with string Legs_VF01_L3:mms)
+00177  000FA  long                  Number of symbol resolves  0(=$0) 
+
+======================================================
+Chunk 4/9 part 1/3
+======================================================
+//Internal offset: $FE(254) - $5E2(1506)
+//Part position: $17F(0) - $17F(0)
+//Block length: $4E4(1252)
+~~~~~~~~~~~
+-==  INCOMING RELOCATION TO OFFSET $fe(254)  ==-
+DATA OF Legs_VF01_L1:mms (type:MorphMesh)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0017F  000FE  long                                Vertexcount  12(=$C) 
+00183  00102  long                                 Indexcount  60(=$3C) 
+00187  00106  long                        Algorithm Unknown 1  13(=$D) (Seems to be very important in the algorithm of how vertices are readed. Lower values at models with less vertices/indices. Cannot be zero! Vertices seem to 'leak' if not set right)
+0018B  0010A  long                        Algorithm Unknown 2  2(=$2) (Usually = unknown 1. Seems to be very important in the algorithm of how vertices are readed. Lower values at models with less vertices/indices. Cannot be zero!)
+0018F  0010E  long                                  Unknown 1  0(=$0) (Seen 0)
+00193  00112  long                                 Morphcount  1(=$1) 
+00197  00116  long                                 VertexUV's  -> 414(=$19E) (*P extended data of MMS VERTEXUV'S Legs_VF01_L1:mms)
+0019B  0011A  long                                    Indices  -> 294(=$126) (*P extended data of MMS INDICES Legs_VF01_L1:mms)
+0019F  0011E  long                                  Unknown 2  0(=$0) (Seen 0)
+001A3  00122  long                                     Morphs  -> 558(=$22E) (*P extended data of MMS MORPH DATA Legs_VF01_L1:mms)
+-==  INCOMING RELOCATION TO OFFSET $126(294)  ==-
+EXTENDED DATA OF MMS INDICES Legs_VF01_L1:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+001A7  00126  short                                    Indice  0(=$0) 
+001A9  00128  short                                    Indice  2(=$2) 
+001AB  0012A  short                                    Indice  1(=$1) 
+001AD  0012C  short                                    Indice  1(=$1) 
+001AF  0012E  short                                    Indice  2(=$2) 
+001B1  00130  short                                    Indice  3(=$3) 
+001B3  00132  short                                    Indice  5(=$5) 
+001B5  00134  short                                    Indice  1(=$1) 
+001B7  00136  short                                    Indice  3(=$3) 
+001B9  00138  short                                    Indice  5(=$5) 
+001BB  0013A  short                                    Indice  3(=$3) 
+001BD  0013C  short                                    Indice  7(=$7) 
+001BF  0013E  short                                    Indice  4(=$4) 
+001C1  00140  short                                    Indice  7(=$7) 
+001C3  00142  short                                    Indice  6(=$6) 
+001C5  00144  short                                    Indice  4(=$4) 
+001C7  00146  short                                    Indice  5(=$5) 
+001C9  00148  short                                    Indice  7(=$7) 
+001CB  0014A  short                                    Indice  0(=$0) 
+001CD  0014C  short                                    Indice  4(=$4) 
+001CF  0014E  short                                    Indice  2(=$2) 
+001D1  00150  short                                    Indice  6(=$6) 
+001D3  00152  short                                    Indice  2(=$2) 
+001D5  00154  short                                    Indice  4(=$4) 
+001D7  00156  short                                    Indice  0(=$0) 
+001D9  00158  short                                    Indice  1(=$1) 
+001DB  0015A  short                                    Indice  4(=$4) 
+001DD  0015C  short                                    Indice  1(=$1) 
+001DF  0015E  short                                    Indice  5(=$5) 
+001E1  00160  short                                    Indice  4(=$4) 
+001E3  00162  short                                    Indice  8(=$8) 
+001E5  00164  short                                    Indice  11(=$B) 
+001E7  00166  short                                    Indice  9(=$9) 
+001E9  00168  short                                    Indice  9(=$9) 
+001EB  0016A  short                                    Indice  11(=$B) 
+001ED  0016C  short                                    Indice  10(=$A) 
+001EF  0016E  short                                    Indice  2(=$2) 
+001F1  00170  short                                    Indice  8(=$8) 
+001F3  00172  short                                    Indice  3(=$3) 
+001F5  00174  short                                    Indice  3(=$3) 
+001F7  00176  short                                    Indice  8(=$8) 
+001F9  00178  short                                    Indice  9(=$9) 
+001FB  0017A  short                                    Indice  3(=$3) 
+001FD  0017C  short                                    Indice  9(=$9) 
+001FF  0017E  short                                    Indice  7(=$7) 
+00201  00180  short                                    Indice  7(=$7) 
+00203  00182  short                                    Indice  9(=$9) 
+00205  00184  short                                    Indice  10(=$A) 
+00207  00186  short                                    Indice  7(=$7) 
+00209  00188  short                                    Indice  10(=$A) 
+0020B  0018A  short                                    Indice  6(=$6) 
+0020D  0018C  short                                    Indice  6(=$6) 
+0020F  0018E  short                                    Indice  10(=$A) 
+00211  00190  short                                    Indice  11(=$B) 
+00213  00192  short                                    Indice  6(=$6) 
+00215  00194  short                                    Indice  11(=$B) 
+00217  00196  short                                    Indice  2(=$2) 
+00219  00198  short                                    Indice  2(=$2) 
+0021B  0019A  short                                    Indice  11(=$B) 
+0021D  0019C  short                                    Indice  8(=$8) 
+-==  INCOMING RELOCATION TO OFFSET $19e(414)  ==-
+EXTENDED DATA OF MMS VERTEXUV'S Legs_VF01_L1:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0021F  0019E  short                                 Unknown 1  0(=$0) 
+00221  001A0  short                                 Unknown 2  0(=$0) 
+00223  001A2  float                                         U  0.100000 
+00227  001A6  float                                         V  0.900000 
+0022B  001AA  short                                 Unknown 1  1(=$1) 
+0022D  001AC  short                                 Unknown 2  1(=$1) 
+0022F  001AE  float                                         U  0.100000 
+00233  001B2  float                                         V  0.900000 
+00237  001B6  short                                 Unknown 1  2(=$2) 
+00239  001B8  short                                 Unknown 2  2(=$2) 
+0023B  001BA  float                                         U  0.100000 
+0023F  001BE  float                                         V  0.900000 
+00243  001C2  short                                 Unknown 1  3(=$3) 
+00245  001C4  short                                 Unknown 2  3(=$3) 
+00247  001C6  float                                         U  0.100000 
+0024B  001CA  float                                         V  0.900000 
+0024F  001CE  short                                 Unknown 1  4(=$4) 
+00251  001D0  short                                 Unknown 2  4(=$4) 
+00253  001D2  float                                         U  0.100000 
+00257  001D6  float                                         V  0.900000 
+0025B  001DA  short                                 Unknown 1  5(=$5) 
+0025D  001DC  short                                 Unknown 2  5(=$5) 
+0025F  001DE  float                                         U  0.100000 
+00263  001E2  float                                         V  0.900000 
+00267  001E6  short                                 Unknown 1  6(=$6) 
+00269  001E8  short                                 Unknown 2  6(=$6) 
+0026B  001EA  float                                         U  0.100000 
+0026F  001EE  float                                         V  0.900000 
+00273  001F2  short                                 Unknown 1  7(=$7) 
+00275  001F4  short                                 Unknown 2  7(=$7) 
+00277  001F6  float                                         U  0.100000 
+0027B  001FA  float                                         V  0.900000 
+0027F  001FE  short                                 Unknown 1  8(=$8) 
+00281  00200  short                                 Unknown 2  8(=$8) 
+00283  00202  float                                         U  0.100000 
+00287  00206  float                                         V  0.900000 
+0028B  0020A  short                                 Unknown 1  9(=$9) 
+0028D  0020C  short                                 Unknown 2  9(=$9) 
+0028F  0020E  float                                         U  0.100000 
+00293  00212  float                                         V  0.900000 
+00297  00216  short                                 Unknown 1  10(=$A) 
+00299  00218  short                                 Unknown 2  10(=$A) 
+0029B  0021A  float                                         U  0.100000 
+0029F  0021E  float                                         V  0.900000 
+002A3  00222  short                                 Unknown 1  11(=$B) 
+002A5  00224  short                                 Unknown 2  11(=$B) 
+002A7  00226  float                                         U  0.100000 
+002AB  0022A  float                                         V  0.900000 
+-==  INCOMING RELOCATION TO OFFSET $22e(558)  ==-
+EXTENDED DATA OF MMS MORPH DATA Legs_VF01_L1:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+002AF  0022E  float                               X-translate  -0.265564 
+002B3  00232  float                               Y-translate  0.002566 
+002B7  00236  float                               Z-translate  -0.256859 
+002BB  0023A  long                                  Unknown 1  0(=$0) 
+002BF  0023E  float                                   X-scale  0.000261 
+002C3  00242  float                                   Y-scale  0.000865 
+002C7  00246  float                                   Z-scale  0.000215 
+002CB  0024A  long                                  Unknown'2  0(=$0) 
+002CF  0024E  long                                  Morphname  -> 0(=$0) (*P string Serve)
+002D3  00252  long                                Times-count  5(=$5) 
+002D7  00256  long                                  Timeslist  -> 622(=$26E) (*P extended data of MMS MORPH TIMES LIST ANIMATION Serve OF SYMBOL Legs_VF01_L1:mms)
+002DB  0025A  long                                 Vertexdata  -> 642(=$282) (*P extended data of MMS MORPH VERTEXPOSITIONS ANIMATION Serve OF SYMBOL Legs_VF01_L1:mms)
+002DF  0025E  long                                  Unknown 3  0(=$0) 
+002E3  00262  long                                  Unknown 4  0(=$0) 
+002E7  00266  long                                  Unknown 5  0(=$0) 
+002EB  0026A  long                                  Unknown 6  0(=$0) 
+-==  INCOMING RELOCATION TO OFFSET $26e(622)  ==-
+EXTENDED DATA OF MMS MORPH TIMES LIST ANIMATION Serve OF SYMBOL Legs_VF01_L1:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+002EF  0026E  float                                      Time  0.000000 
+002F3  00272  float                                      Time  0.500000 
+002F7  00276  float                                      Time  1.000000 
+002FB  0027A  float                                      Time  1.500000 
+002FF  0027E  float                                      Time  2.366664 
+-==  INCOMING RELOCATION TO OFFSET $282(642)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION Serve OF SYMBOL Legs_VF01_L1:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:12 Indices:60 Timescount:5 Expectedsize:864
+~~~~~~~~~~~
+00303  00282  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00307  00286  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+0030B  0028A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0030F  0028E  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+00313  00292  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+00317  00296  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+0031B  0029A  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+0031F  0029E  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+00323  002A2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00327  002A6  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+0032B  002AA  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+0032F  002AE  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+00333  002B2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00337  002B6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0033B  002BA  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+0033F  002BE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00343  002C2  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+00347  002C6  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+0034B  002CA  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+0034F  002CE  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+00353  002D2  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+00357  002D6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0035B  002DA  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+0035F  002DE  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+00363  002E2  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+00367  002E6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0036B  002EA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0036F  002EE  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+00373  002F2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00377  002F6  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+0037B  002FA  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+0037F  002FE  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+00383  00302  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+00387  00306  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+0038B  0030A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0038F  0030E  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+00393  00312  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+00397  00316  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+0039B  0031A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0039F  0031E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+003A3  00322  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+003A7  00326  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+003AB  0032A  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+003AF  0032E  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+003B3  00332  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+003B7  00336  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+003BB  0033A  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+003BF  0033E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+003C3  00342  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+003C7  00346  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+003CB  0034A  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+003CF  0034E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+003D3  00352  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+003D7  00356  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+003DB  0035A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+003DF  0035E  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+003E3  00362  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+003E7  00366  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+003EB  0036A  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+003EF  0036E  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+003F3  00372  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+003F7  00376  long                               Unknown data  ($FF00 ($0 $FF $0 $0) == 65280) 
+003FB  0037A  long                               Unknown data  ($FF00FF00 ($0 $FF $0 $FF) == -16711936) 
+003FF  0037E  long                               Unknown data  ($FF000000 ($0 $0 $0 $FF) == -16777216) 
+00403  00382  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00407  00386  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0040B  0038A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0040F  0038E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00413  00392  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00417  00396  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0041B  0039A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0041F  0039E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00423  003A2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00427  003A6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0042B  003AA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0042F  003AE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00433  003B2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00437  003B6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0043B  003BA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0043F  003BE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00443  003C2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00447  003C6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0044B  003CA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0044F  003CE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00453  003D2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00457  003D6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0045B  003DA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0045F  003DE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00463  003E2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00467  003E6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0046B  003EA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0046F  003EE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00473  003F2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00477  003F6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0047B  003FA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0047F  003FE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00483  00402  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00487  00406  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0048B  0040A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0048F  0040E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00493  00412  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00497  00416  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0049B  0041A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0049F  0041E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004A3  00422  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004A7  00426  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004AB  0042A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004AF  0042E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004B3  00432  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004B7  00436  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004BB  0043A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004BF  0043E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004C3  00442  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004C7  00446  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004CB  0044A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004CF  0044E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004D3  00452  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004D7  00456  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004DB  0045A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004DF  0045E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004E3  00462  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004E7  00466  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004EB  0046A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004EF  0046E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004F3  00472  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004F7  00476  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004FB  0047A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+004FF  0047E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00503  00482  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00507  00486  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0050B  0048A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0050F  0048E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00513  00492  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00517  00496  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0051B  0049A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0051F  0049E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00523  004A2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00527  004A6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0052B  004AA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0052F  004AE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00533  004B2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00537  004B6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0053B  004BA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0053F  004BE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00543  004C2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00547  004C6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0054B  004CA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0054F  004CE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00553  004D2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00557  004D6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0055B  004DA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0055F  004DE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00563  004E2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00567  004E6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0056B  004EA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0056F  004EE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00573  004F2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00577  004F6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0057B  004FA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0057F  004FE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00583  00502  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00587  00506  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0058B  0050A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0058F  0050E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00593  00512  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00597  00516  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0059B  0051A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0059F  0051E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005A3  00522  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005A7  00526  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005AB  0052A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005AF  0052E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005B3  00532  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005B7  00536  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005BB  0053A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005BF  0053E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005C3  00542  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005C7  00546  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005CB  0054A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005CF  0054E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005D3  00552  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005D7  00556  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005DB  0055A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005DF  0055E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005E3  00562  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005E7  00566  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005EB  0056A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005EF  0056E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005F3  00572  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005F7  00576  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005FB  0057A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+005FF  0057E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00603  00582  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00607  00586  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0060B  0058A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0060F  0058E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00613  00592  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00617  00596  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0061B  0059A  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0061F  0059E  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00623  005A2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00627  005A6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0062B  005AA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0062F  005AE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00633  005B2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00637  005B6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0063B  005BA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0063F  005BE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00643  005C2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00647  005C6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0064B  005CA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0064F  005CE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00653  005D2  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+00657  005D6  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0065B  005DA  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0065F  005DE  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+
+======================================================
+Chunk 4/9 part 2/3
+======================================================
+//Internal offset: $5E2(1506) - $6DE(1758)
+//Part position: $667(0) - $667(0)
+//Block length: $FC(252)
+~~~~~~~~~~~
+-==  INCOMING RELOCATION TO OFFSET $5e2(1506)  ==-
+DATA OF Legs_VF01_L2:mms (type:MorphMesh)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+00667  005E2  long                                Vertexcount  6(=$6) 
+0066B  005E6  long                                 Indexcount  6(=$6) 
+0066F  005EA  long                        Algorithm Unknown 1  6(=$6) (Seems to be very important in the algorithm of how vertices are readed. Lower values at models with less vertices/indices. Cannot be zero! Vertices seem to 'leak' if not set right)
+00673  005EE  long                        Algorithm Unknown 2  1(=$1) (Usually = unknown 1. Seems to be very important in the algorithm of how vertices are readed. Lower values at models with less vertices/indices. Cannot be zero!)
+00677  005F2  long                                  Unknown 1  0(=$0) (Seen 0)
+0067B  005F6  long                                 Morphcount  1(=$1) 
+0067F  005FA  long                                 VertexUV's  -> 1558(=$616) (*P extended data of MMS VERTEXUV'S Legs_VF01_L2:mms)
+00683  005FE  long                                    Indices  -> 1546(=$60A) (*P extended data of MMS INDICES Legs_VF01_L2:mms)
+00687  00602  long                                  Unknown 2  0(=$0) (Seen 0)
+0068B  00606  long                                     Morphs  -> 1630(=$65E) (*P extended data of MMS MORPH DATA Legs_VF01_L2:mms)
+-==  INCOMING RELOCATION TO OFFSET $60a(1546)  ==-
+EXTENDED DATA OF MMS INDICES Legs_VF01_L2:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0068F  0060A  short                                    Indice  0(=$0) 
+00691  0060C  short                                    Indice  1(=$1) 
+00693  0060E  short                                    Indice  2(=$2) 
+00695  00610  short                                    Indice  3(=$3) 
+00697  00612  short                                    Indice  4(=$4) 
+00699  00614  short                                    Indice  5(=$5) 
+-==  INCOMING RELOCATION TO OFFSET $616(1558)  ==-
+EXTENDED DATA OF MMS VERTEXUV'S Legs_VF01_L2:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0069B  00616  short                                 Unknown 1  5(=$5) 
+0069D  00618  short                                 Unknown 2  0(=$0) 
+0069F  0061A  float                                         U  0.100000 
+006A3  0061E  float                                         V  0.900000 
+006A7  00622  short                                 Unknown 1  4(=$4) 
+006A9  00624  short                                 Unknown 2  0(=$0) 
+006AB  00626  float                                         U  0.100000 
+006AF  0062A  float                                         V  0.900000 
+006B3  0062E  short                                 Unknown 1  3(=$3) 
+006B5  00630  short                                 Unknown 2  0(=$0) 
+006B7  00632  float                                         U  0.100000 
+006BB  00636  float                                         V  0.900000 
+006BF  0063A  short                                 Unknown 1  2(=$2) 
+006C1  0063C  short                                 Unknown 2  0(=$0) 
+006C3  0063E  float                                         U  0.100000 
+006C7  00642  float                                         V  0.900000 
+006CB  00646  short                                 Unknown 1  1(=$1) 
+006CD  00648  short                                 Unknown 2  0(=$0) 
+006CF  0064A  float                                         U  0.100000 
+006D3  0064E  float                                         V  0.900000 
+006D7  00652  short                                 Unknown 1  0(=$0) 
+006D9  00654  short                                 Unknown 2  0(=$0) 
+006DB  00656  float                                         U  0.100000 
+006DF  0065A  float                                         V  0.900000 
+-==  INCOMING RELOCATION TO OFFSET $65e(1630)  ==-
+EXTENDED DATA OF MMS MORPH DATA Legs_VF01_L2:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+006E3  0065E  float                               X-translate  -0.073070 
+006E7  00662  float                               Y-translate  -0.060455 
+006EB  00666  float                               Z-translate  -0.358380 
+006EF  0066A  long                                  Unknown 1  0(=$0) 
+006F3  0066E  float                                   X-scale  0.000071 
+006F7  00672  float                                   Y-scale  0.000118 
+006FB  00676  float                                   Z-scale  0.000249 
+006FF  0067A  long                                  Unknown'2  0(=$0) 
+00703  0067E  long                                  Morphname  -> 0(=$0) (*P string Serve)
+00707  00682  long                                Times-count  1(=$1) 
+0070B  00686  long                                  Timeslist  -> 1694(=$69E) (*P extended data of MMS MORPH TIMES LIST ANIMATION Serve OF SYMBOL Legs_VF01_L2:mms)
+0070F  0068A  long                                 Vertexdata  -> 1702(=$6A6) (*P extended data of MMS MORPH VERTEXPOSITIONS ANIMATION Serve OF SYMBOL Legs_VF01_L2:mms)
+00713  0068E  long                                  Unknown 3  0(=$0) 
+00717  00692  long                                  Unknown 4  0(=$0) 
+0071B  00696  long                                  Unknown 5  0(=$0) 
+0071F  0069A  long                                  Unknown 6  0(=$0) 
+-==  INCOMING RELOCATION TO OFFSET $69e(1694)  ==-
+EXTENDED DATA OF MMS MORPH TIMES LIST ANIMATION Serve OF SYMBOL Legs_VF01_L2:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+00723  0069E  float                                      Time  0.500000 
+00727  006A2  long                               Unknown data  ($3F800000 ($0 $0 $80 $3F) == 1065353216) 
+-==  INCOMING RELOCATION TO OFFSET $6a6(1702)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION Serve OF SYMBOL Legs_VF01_L2:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:6 Indices:6 Timescount:1 Expectedsize:56
+~~~~~~~~~~~
+0072B  006A6  long                               Unknown data  ($EA967FFF ($FF $7F $96 $EA) == -359235585) 
+0072F  006AA  long                               Unknown data  ($EA966007 ($7 $60 $96 $EA) == -359243769) 
+00733  006AE  long                               Unknown data  ($491000 ($0 $10 $49 $0) == 4788224) 
+00737  006B2  long                               Unknown data  ($D5FFEFFF ($FF $EF $FF $D5) == -704647169) 
+0073B  006B6  long                               Unknown data  ($FF2D0FFF ($FF $F $2D $FF) == -13824001) 
+0073F  006BA  long                               Unknown data  ($490FF8 ($F8 $F $49 $0) == 4788216) 
+00743  006BE  long                               Unknown data  ($7FFF7F ($7F $FF $7F $0) == 8388479) 
+00747  006C2  long                               Unknown data  ($EA967FFF ($FF $7F $96 $EA) == -359235585) 
+0074B  006C6  long                               Unknown data  ($EA966007 ($7 $60 $96 $EA) == -359243769) 
+0074F  006CA  long                               Unknown data  ($491000 ($0 $10 $49 $0) == 4788224) 
+00753  006CE  long                               Unknown data  ($D5FFEFFF ($FF $EF $FF $D5) == -704647169) 
+00757  006D2  long                               Unknown data  ($FF2D0FFF ($FF $F $2D $FF) == -13824001) 
+0075B  006D6  long                               Unknown data  ($490FF8 ($F8 $F $49 $0) == 4788216) 
+0075F  006DA  long                               Unknown data  ($7FFF7F ($7F $FF $7F $0) == 8388479) 
+
+======================================================
+Chunk 4/9 part 3/3
+======================================================
+//Internal offset: $6DE(1758) - $7DA(2010)
+//Part position: $767(0) - $767(0)
+//Block length: $FC(252)
+~~~~~~~~~~~
+-==  INCOMING RELOCATION TO OFFSET $6de(1758)  ==-
+DATA OF Legs_VF01_L3:mms (type:MorphMesh)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+00767  006DE  long                                Vertexcount  6(=$6) 
+0076B  006E2  long                                 Indexcount  6(=$6) 
+0076F  006E6  long                        Algorithm Unknown 1  6(=$6) (Seems to be very important in the algorithm of how vertices are readed. Lower values at models with less vertices/indices. Cannot be zero! Vertices seem to 'leak' if not set right)
+00773  006EA  long                        Algorithm Unknown 2  1(=$1) (Usually = unknown 1. Seems to be very important in the algorithm of how vertices are readed. Lower values at models with less vertices/indices. Cannot be zero!)
+00777  006EE  long                                  Unknown 1  0(=$0) (Seen 0)
+0077B  006F2  long                                 Morphcount  1(=$1) 
+0077F  006F6  long                                 VertexUV's  -> 1810(=$712) (*P extended data of MMS VERTEXUV'S Legs_VF01_L3:mms)
+00783  006FA  long                                    Indices  -> 1798(=$706) (*P extended data of MMS INDICES Legs_VF01_L3:mms)
+00787  006FE  long                                  Unknown 2  0(=$0) (Seen 0)
+0078B  00702  long                                     Morphs  -> 1882(=$75A) (*P extended data of MMS MORPH DATA Legs_VF01_L3:mms)
+-==  INCOMING RELOCATION TO OFFSET $706(1798)  ==-
+EXTENDED DATA OF MMS INDICES Legs_VF01_L3:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0078F  00706  short                                    Indice  0(=$0) 
+00791  00708  short                                    Indice  1(=$1) 
+00793  0070A  short                                    Indice  2(=$2) 
+00795  0070C  short                                    Indice  3(=$3) 
+00797  0070E  short                                    Indice  4(=$4) 
+00799  00710  short                                    Indice  5(=$5) 
+-==  INCOMING RELOCATION TO OFFSET $712(1810)  ==-
+EXTENDED DATA OF MMS VERTEXUV'S Legs_VF01_L3:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0079B  00712  short                                 Unknown 1  5(=$5) 
+0079D  00714  short                                 Unknown 2  0(=$0) 
+0079F  00716  float                                         U  0.100000 
+007A3  0071A  float                                         V  0.900000 
+007A7  0071E  short                                 Unknown 1  4(=$4) 
+007A9  00720  short                                 Unknown 2  0(=$0) 
+007AB  00722  float                                         U  0.100000 
+007AF  00726  float                                         V  0.900000 
+007B3  0072A  short                                 Unknown 1  3(=$3) 
+007B5  0072C  short                                 Unknown 2  0(=$0) 
+007B7  0072E  float                                         U  0.100000 
+007BB  00732  float                                         V  0.900000 
+007BF  00736  short                                 Unknown 1  2(=$2) 
+007C1  00738  short                                 Unknown 2  0(=$0) 
+007C3  0073A  float                                         U  0.100000 
+007C7  0073E  float                                         V  0.900000 
+007CB  00742  short                                 Unknown 1  1(=$1) 
+007CD  00744  short                                 Unknown 2  0(=$0) 
+007CF  00746  float                                         U  0.100000 
+007D3  0074A  float                                         V  0.900000 
+007D7  0074E  short                                 Unknown 1  0(=$0) 
+007D9  00750  short                                 Unknown 2  0(=$0) 
+007DB  00752  float                                         U  0.100000 
+007DF  00756  float                                         V  0.900000 
+-==  INCOMING RELOCATION TO OFFSET $75a(1882)  ==-
+EXTENDED DATA OF MMS MORPH DATA Legs_VF01_L3:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+007E3  0075A  float                               X-translate  -0.073070 
+007E7  0075E  float                               Y-translate  -0.060455 
+007EB  00762  float                               Z-translate  -0.358380 
+007EF  00766  long                                  Unknown 1  0(=$0) 
+007F3  0076A  float                                   X-scale  0.000071 
+007F7  0076E  float                                   Y-scale  0.000118 
+007FB  00772  float                                   Z-scale  0.000249 
+007FF  00776  long                                  Unknown'2  0(=$0) 
+00803  0077A  long                                  Morphname  -> 0(=$0) (*P string Serve)
+00807  0077E  long                                Times-count  1(=$1) 
+0080B  00782  long                                  Timeslist  -> 1946(=$79A) (*P extended data of MMS MORPH TIMES LIST ANIMATION Serve OF SYMBOL Legs_VF01_L3:mms)
+0080F  00786  long                                 Vertexdata  -> 1954(=$7A2) (*P extended data of MMS MORPH VERTEXPOSITIONS ANIMATION Serve OF SYMBOL Legs_VF01_L3:mms)
+00813  0078A  long                                  Unknown 3  0(=$0) 
+00817  0078E  long                                  Unknown 4  0(=$0) 
+0081B  00792  long                                  Unknown 5  0(=$0) 
+0081F  00796  long                                  Unknown 6  0(=$0) 
+-==  INCOMING RELOCATION TO OFFSET $79a(1946)  ==-
+EXTENDED DATA OF MMS MORPH TIMES LIST ANIMATION Serve OF SYMBOL Legs_VF01_L3:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+00823  0079A  float                                      Time  0.500000 
+00827  0079E  long                               Unknown data  ($3F800000 ($0 $0 $80 $3F) == 1065353216) 
+-==  INCOMING RELOCATION TO OFFSET $7a2(1954)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION Serve OF SYMBOL Legs_VF01_L3:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:4076244 Indices:0 Timescount:4097568 Expectedsize:4074274
+~~~~~~~~~~~
+0082B  007A2  long                               Unknown data  ($EA967FFF ($FF $7F $96 $EA) == -359235585) 
+0082F  007A6  long                               Unknown data  ($EA966007 ($7 $60 $96 $EA) == -359243769) 
+00833  007AA  long                               Unknown data  ($491000 ($0 $10 $49 $0) == 4788224) 
+00837  007AE  long                               Unknown data  ($D5FFEFFF ($FF $EF $FF $D5) == -704647169) 
+0083B  007B2  long                               Unknown data  ($FF2D0FFF ($FF $F $2D $FF) == -13824001) 
+0083F  007B6  long                               Unknown data  ($490FF8 ($F8 $F $49 $0) == 4788216) 
+00843  007BA  long                               Unknown data  ($7FFF7F ($7F $FF $7F $0) == 8388479) 
+00847  007BE  long                               Unknown data  ($EA967FFF ($FF $7F $96 $EA) == -359235585) 
+0084B  007C2  long                               Unknown data  ($EA966007 ($7 $60 $96 $EA) == -359243769) 
+0084F  007C6  long                               Unknown data  ($491000 ($0 $10 $49 $0) == 4788224) 
+00853  007CA  long                               Unknown data  ($D5FFEFFF ($FF $EF $FF $D5) == -704647169) 
+00857  007CE  long                               Unknown data  ($FF2D0FFF ($FF $F $2D $FF) == -13824001) 
+0085B  007D2  long                               Unknown data  ($490FF8 ($F8 $F $49 $0) == 4788216) 
+0085F  007D6  long                               Unknown data  ($7FFF7F ($7F $FF $7F $0) == 8388479) 

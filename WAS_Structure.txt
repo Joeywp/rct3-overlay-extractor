@@ -1,0 +1,22 @@
+DATA OF grizzly:was (type:WildAnimalSpecies)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+086D6  0B881  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+086DA  0B885  long                               Unknown data  -> ($19 ($19 $0 $0 $0) == 25) (*P string grizzly)
+-==  INCOMING RELOCATION TO OFFSET $b889(47241)  ==-
+086DE  0B889  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+-==  INCOMING RELOCATION TO OFFSET $b88d(47245)  ==-
+086E2  0B88D  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+-==  INCOMING RELOCATION TO OFFSET $b891(47249)  ==-
+086E6  0B891  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+086EA  0B895  long                               Unknown data  -> ($21 ($21 $0 $0 $0) == 33) (*P string WildAnimals\grizzly\Grizzly_data)
+086EE  0B899  long                               Unknown data  -> ($B8C1 ($C1 $B8 $0 $0) == 47297) (*P symbol resolve AdultGrizzly:mdl)
+086F2  0B89D  long                               Unknown data  -> ($BB81 ($81 $BB $0 $0) == 48001) (*P symbol resolve AdultGrizzly:mdl)
+086F6  0B8A1  long                               Unknown data  -> ($BE41 ($41 $BE $0 $0) == 48705) (*P symbol resolve BabyGrizzly:mdl)
+086FA  0B8A5  long                               Unknown data  -> ($C101 ($1 $C1 $0 $0) == 49409) (*P symbol resolve BabyGrizzly:mdl)
+086FE  0B8A9  long                               Unknown data  -> ($2D9D ($9D $2D $0 $0) == 11677) (*P unknown)
+08702  0B8AD  long                               Unknown data  -> ($2DB5 ($B5 $2D $0 $0) == 11701) (*P unknown)
+08706  0B8B1  long                               Unknown data  -> ($42 ($42 $0 $0 $0) == 66) (*P string bigcatshelter)
+0870A  0B8B5  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0) 
+0870E  0B8B9  long                               Unknown data  ($40400000 ($0 $0 $40 $40) == 1077936128) 
+-==  INCOMING RELOCATION TO OFFSET $b8bd(47293)  ==-
+08712  0B8BD  long                               Unknown data  ($0 ($0 $0 $0 $0) == 0)

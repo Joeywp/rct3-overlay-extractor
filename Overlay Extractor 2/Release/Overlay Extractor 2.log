@@ -1,0 +1,19 @@
+﻿Build started 16-1-2013 19:37:12.
+     1>Project "C:\Users\-Joey\Documents\Visual Studio 2010\Projects\Overlay Extractor 2\Overlay Extractor 2\Overlay Extractor 2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Overlay Extractor 2.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib "Overlay Extractor 2.cpp"
+         Overlay Extractor 2.cpp
+     1>c:\users\-joey\documents\visual studio 2010\projects\overlay extractor 2\overlay extractor 2\Form1.h(817): warning C4101: 'MDLUE' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\-Joey\Documents\Visual Studio 2010\Projects\Overlay Extractor 2\Release\Overlay Extractor 2.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\OverlayExtractor2.Form1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\-Joey\Documents\Visual Studio 2010\Projects\Overlay Extractor 2\Release\Overlay Extractor 2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\app.res
+         Release\AssemblyInfo.obj
+         "Release\Overlay Extractor 2.obj"
+         Release\OVLReader.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Overlay Extractor 2.vcxproj -> C:\Users\-Joey\Documents\Visual Studio 2010\Projects\Overlay Extractor 2\Release\Overlay Extractor 2.exe
+     1>Done Building Project "C:\Users\-Joey\Documents\Visual Studio 2010\Projects\Overlay Extractor 2\Overlay Extractor 2\Overlay Extractor 2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:56.24

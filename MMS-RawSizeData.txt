@@ -1,0 +1,64 @@
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION Serve OF SYMBOL Legs_VF01_L1:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:110 Indices:270 Timescount:26 Expectedsize:50032
+
+-==  INCOMING RELOCATION TO OFFSET $2cae(11438)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION IdleBored OF SYMBOL Legs_VF01_L1:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:110 Indices:270 Timescount:14 Expectedsize:39104
+
+-==  INCOMING RELOCATION TO OFFSET $43a6(17318)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION IdleStackShelfs OF SYMBOL Legs_VF01_L1:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:110 Indices:270 Timescount:50 Expectedsize:33224
+
+-==  INCOMING RELOCATION TO OFFSET $95ae(38318)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION TakeMoney OF SYMBOL Legs_VF01_L1:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:110 Indices:270 Timescount:29 Expectedsize:12224
+
+-==  INCOMING RELOCATION TO OFFSET $c54e(50510)  ==-
+
+-==  INCOMING RELOCATION TO OFFSET $c64e(50766)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION Serve OF SYMBOL Legs_VF01_L2:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:79 Indices:162 Timescount:26 Expectedsize:31936
+
+-==  INCOMING RELOCATION TO OFFSET $e186(57734)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION IdleStackShelfs OF SYMBOL Legs_VF01_L2:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:79 Indices:162 Timescount:50 Expectedsize:24968
+
+-==  INCOMING RELOCATION TO OFFSET $115e6(71142)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION IdleBored OF SYMBOL Legs_VF01_L2:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:79 Indices:162 Timescount:14 Expectedsize:11560
+
+-==  INCOMING RELOCATION TO OFFSET $1248e(74894)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION TakeMoney OF SYMBOL Legs_VF01_L2:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:79 Indices:162 Timescount:29 Expectedsize:7808
+
+-==  INCOMING RELOCATION TO OFFSET $142ee(82670)  ==-
+
+-==  INCOMING RELOCATION TO OFFSET $143ee(82926)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION Serve OF SYMBOL Legs_VF01_L3:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:21 Indices:39 Timescount:26 Expectedsize:20148
+
+-==  INCOMING RELOCATION TO OFFSET $150ee(86254)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION IdleStackShelfs OF SYMBOL Legs_VF01_L3:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:21 Indices:39 Timescount:50 Expectedsize:16820
+
+-==  INCOMING RELOCATION TO OFFSET $169ee(92654)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION IdleBored OF SYMBOL Legs_VF01_L3:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:21 Indices:39 Timescount:14 Expectedsize:10420
+
+-==  INCOMING RELOCATION TO OFFSET $170ee(94446)  ==-
+EXTENDED DATA OF MMS MORPH VERTEXPOSITIONS ANIMATION TakeMoney OF SYMBOL Legs_VF01_L3:mms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Animation info (for research): Vertices:21 Indices:39 Timescount:29 Expectedsize:8628
+
+-==  INCOMING RELOCATION TO OFFSET $17f6e(98158)  ==-
